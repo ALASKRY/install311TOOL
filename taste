@@ -1,0 +1,8 @@
+import os 
+os. system ("clear")
+name= input("Do you want to download 311 tool? y/n")
+if name == "y":
+    print ("apt update && apt upgrade -y ")
+else:
+    print ("Error" *50)
+    input ("Please try again")
